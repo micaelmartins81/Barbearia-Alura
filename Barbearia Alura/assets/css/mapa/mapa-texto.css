@@ -1,0 +1,11 @@
+.mapa__texto {
+    margin: 0 0 1em;
+    line-height: normal;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .mapa__texto {
+        font-size: 1.3em;
+    }
+}

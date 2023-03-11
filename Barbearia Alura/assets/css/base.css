@@ -1,0 +1,16 @@
+:root {
+    --bg-cabecalho: #BBBBBB;
+    --preto: #000000;
+    --mostarda: #C78C19;
+    --verde: #088C19;
+    --branco: #FFFFFF;
+    --montserrat: 'Montserrat', sans-serif;
+    --bg-sobre: #FEFEFE;
+    --bg-beneficios: #888888;
+    --bg-mapa: linear-gradient(var(--bg-sobre), var(--bg-beneficios));
+}
+
+body {
+    font-family: var(--montserrat);
+    font-size: 16px;
+}

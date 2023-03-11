@@ -1,0 +1,117 @@
+.formulario-container {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.formulario {
+    margin: 40px 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.formulario label,
+.formulario legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.formulario__input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.formulario .formulario__checkbox {
+    margin: 10px 0 20px;
+    display: inline-block;
+}
+
+.formulario__botao-enviar {
+    background-color: orange;
+    width: 70%;
+    padding: 10px 0;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario__botao-enviar:active {
+    background-color: darkorange;
+}
+
+table {
+    margin: 20px 0 40px 20px;
+}
+
+thead {
+    background-color: #555555;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid var(--preto);
+    padding: 8px 15px;
+}
+
+@media screen and (min-width: 768px){
+    .formulario-container {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .formulario__input-padrao {
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 55%;
+    }
+
+    .formulario__botao-enviar {
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .formulario-container {
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    .formulario {
+        margin: 40px 0;
+    }
+
+    .formulario label {
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+
+    .formulario .formulario__checkbox {
+        margin: 20px 0 20px;
+        display: block;
+    }
+
+    .formulario__botao-enviar {
+        width: 40%;
+        padding: 15px 0;
+        transition: 1s all;
+    }
+
+    .formulario__botao-enviar:hover {
+        background-color: darkorange;
+        transform: scale(1.05);
+    }
+
+    .formulario__botao-enviar:active {
+        background-color: none;
+    }
+}

@@ -1,0 +1,11 @@
+.beneficios__conteudo {
+    /* display: flex; */
+    /* box-sizing: border-box; */
+}
+
+@media screen and (min-width: 768px) {
+    .beneficios__conteudo {
+        width: 640px;
+        margin: 0 auto;
+    }
+}

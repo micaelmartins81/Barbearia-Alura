@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+    .mapa__conteudo {
+        width: 940px;
+        margin: 0 auto;
+    }
+}

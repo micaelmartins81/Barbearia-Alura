@@ -1,0 +1,18 @@
+.sobre__texto {
+    /* text-align: center; */
+    margin: 0 0 1em;
+    line-height: normal;
+}
+
+.sobre__texto--missao {
+    font-size: 20px;
+}
+
+.sobre__texto strong {
+    font-weight: bold;
+}
+
+.sobre__texto em {
+    font-style: italic;
+}
+

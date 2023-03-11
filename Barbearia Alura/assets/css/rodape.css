@@ -1,0 +1,15 @@
+.rodape {
+    text-align: center;
+    background: url(../image/bg.jpg);
+    padding: 40px 0;
+}
+
+.rodape p {
+    color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+.beneficios__lista {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (min-width: 768px) {
+    .beneficios__lista {
+        width: 40%;
+    }
+}

@@ -1,0 +1,10 @@
+.beneficios {
+    padding: 2em 6%;
+    background-color: var(--bg-beneficios);
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 3em 0;
+    }
+}

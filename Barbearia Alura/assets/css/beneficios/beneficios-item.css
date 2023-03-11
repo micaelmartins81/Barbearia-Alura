@@ -1,0 +1,22 @@
+.beneficios__item {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.beneficios__item:first-child{
+    font-weight: bold;
+}
+
+.beneficios__item:last-child {
+    margin-bottom: 1em;
+}
+
+.beneficios__item::before {
+    content: "★ ";
+}
+
+@media screen and (min-width: 768px) {
+    .beneficios__item:last-child {
+        margin-bottom: 0;
+    }
+}

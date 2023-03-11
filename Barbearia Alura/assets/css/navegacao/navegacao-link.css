@@ -1,0 +1,24 @@
+.navegacao__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.navegacao__link:hover,
+.navegacao__link:active {
+    color: var(--mostarda);
+}
+
+@media screen and (min-width: 768px) {
+    .navegacao__link {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacao__link:hover {
+        text-decoration: underline;
+    }
+}

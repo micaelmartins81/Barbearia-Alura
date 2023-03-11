@@ -1,0 +1,21 @@
+.produto-lista {
+    padding: 50px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .produto-lista {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .produto-lista {
+        display: block;
+        width: 940px;
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,12 @@
+.sobre {
+    padding: 2em 6%;
+    background-color: var(--bg-sobre);
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        padding: 3em 0;
+        width: 940px;
+        margin:0 auto;
+    }
+}

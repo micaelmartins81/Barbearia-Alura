@@ -1,0 +1,11 @@
+.produto__preco {
+    font-size: 2em;
+    font-weight: bold;
+    margin: .5em 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .produto__preco {
+        font-size: 22px;
+    }
+}

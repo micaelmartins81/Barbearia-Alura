@@ -1,0 +1,33 @@
+.cabecalho {
+    background-color: var(--bg-cabecalho);
+    text-align: center;
+    padding: 40px 0;
+}
+
+@media screen and (min-width: 768px){
+
+    .cabecalho {
+        text-align: left;
+        padding: 40px 0;
+    }
+    
+    .cabecalho__caixa {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .cabecalho {
+        text-align: none;
+        padding-top: 40px 0;
+    }
+    
+    .cabecalho__caixa {
+        width: 940px;
+        position: relative;
+        margin: 0 auto;
+    }
+}

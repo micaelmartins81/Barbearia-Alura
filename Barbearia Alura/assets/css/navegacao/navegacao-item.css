@@ -1,0 +1,14 @@
+.navegacao__item {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.navegacao__item:last-child {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .navegacao__item {
+        margin: 0 0 0 15px;
+    }
+}

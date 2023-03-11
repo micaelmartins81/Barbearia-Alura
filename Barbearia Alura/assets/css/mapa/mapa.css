@@ -1,0 +1,10 @@
+.mapa {
+    padding: 2em 6%;
+    background: var(--bg-mapa);
+}
+
+@media screen and (min-width: 1024px) {
+    .mapa {
+        padding: 3em 0;
+    }
+}

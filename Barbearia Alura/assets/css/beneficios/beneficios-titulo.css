@@ -1,0 +1,13 @@
+.beneficios__titulo {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .beneficios__titulo {
+        font-size: 2em;
+    }
+}
